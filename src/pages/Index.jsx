@@ -22,7 +22,11 @@ const Index = () => {
       <main className="flex-grow container mx-auto px-4 py-8 flex items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div>
-            <img src="/placeholder.svg" alt="Sustainable Energy Illustration" className="w-full h-auto object-cover" />
+            <img 
+              src="/images/sustainable-energy-illustration.png" 
+              alt="Sustainable Energy Illustration" 
+              className="w-full h-auto object-cover rounded-lg shadow-md"
+            />
           </div>
           <div>
             <h1 className="text-3xl font-bold mb-2">Tillgodose hela din energiförbrukning</h1>
